@@ -1,2 +1,6 @@
-# importance_net
-A network that estimates the distribution within a domain.
+# Importance Net
+A network that estimates the relative distribution of a domain for unsupervised domain transfer tasks.
+
+TODO: a description
+
+TODO: how to use
