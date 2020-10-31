@@ -8,7 +8,7 @@ To run the example we move to the example folder:
 cd cycleGAN_example
 ```
 
-To train the cycleGAN we can run:
+To train the cycleGAN, keeping importanceNet freezed, we can run:
 ```bash 
 python3 train.py --train_GAN
 ```
@@ -20,7 +20,7 @@ python3 train.py --continue_train --train_W
 
 ---------------
 
-The folder `importance_net` in the cycleGAN example contains the network that performs the distribution estimation. To run within your own training loop simply add the pieces of code that are surrounded with `#############` in `train.py`.
+The folder `importance_net` in the cycleGAN example contains the network that performs the distribution estimation. To run within your own training loop simply add the pieces of code that are surrounded with `#############` in `train.py`. In particular, the following are the only pieces of code to add into your desired training code in order to integrate importanceNet.
 
 The imports:
 ```python
