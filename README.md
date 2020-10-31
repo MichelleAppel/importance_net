@@ -20,7 +20,7 @@ python3 train.py --continue_train --train_W
 
 ---------------
 
-The folder `importance_net` in the cycleGAN example contains the network that performs the distribution estimation. To run within your own training loop simply add the pieces of code that are surrounded with `#############` in train.py.
+The folder `importance_net` in the cycleGAN example contains the network that performs the distribution estimation. To run within your own training loop simply add the pieces of code that are surrounded with `#############` in `train.py`.
 
 The imports:
 ```python
